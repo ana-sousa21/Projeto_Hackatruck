@@ -1,12 +1,15 @@
 
-/* Class = "UITextField"; text = "Preferências"; ObjectID = "DHK-tr-5K8"; */
-"DHK-tr-5K8.text" = "Preferências";
+/* Class = "UIButton"; normalTitle = "Início"; ObjectID = "07c-HX-7Cl"; */
+"07c-HX-7Cl.normalTitle" = "Início";
 
-/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "QmG-aZ-Lhk"; */
-"QmG-aZ-Lhk.normalTitle" = "Settings";
+/* Class = "UIButton"; normalTitle = "Loja"; ObjectID = "LDM-b7-NDK"; */
+"LDM-b7-NDK.normalTitle" = "Loja";
 
-/* Class = "UIButton"; normalTitle = "Home"; ObjectID = "cUt-AT-VFI"; */
-"cUt-AT-VFI.normalTitle" = "Home";
+/* Class = "UITextField"; text = "Loja"; ObjectID = "Q5g-tk-bL6"; */
+"Q5g-tk-bL6.text" = "Loja";
+
+/* Class = "UIButton"; normalTitle = "Configurações"; ObjectID = "ift-ET-2dP"; */
+"ift-ET-2dP.normalTitle" = "Configurações";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jhl-om-ped"; */
 "jhl-om-ped.normalTitle" = "Button";

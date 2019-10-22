@@ -52,7 +52,7 @@ class MenuViewController: UIViewController {
     @IBAction func btnHomeTapped(_ sender: Any) {
         
         let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "LoadView") as! LoadViewController
         self.navigationController?.pushViewController(DVC, animated:true)
     }
     
@@ -71,6 +71,12 @@ class MenuViewController: UIViewController {
         
     }
     
+    @IBAction func btnCadastro(_ sender: Any) {
+        
+        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "CadastroView") as! ViewController1
+        self.navigationController?.pushViewController(DVC, animated:true)
+    }
     
     
     

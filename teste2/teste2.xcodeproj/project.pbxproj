@@ -10,6 +10,15 @@
 		3F70EEA7235A21FE004CB2A8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEA6235A21FE004CB2A8 /* BaseViewController.swift */; };
 		3F70EEA9235A2C49004CB2A8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEA8235A2C49004CB2A8 /* SettingsViewController.swift */; };
 		3F70EEAD235A2DE4004CB2A8 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEAC235A2DE4004CB2A8 /* StoreViewController.swift */; };
+		3F70EEB0235A31C0004CB2A8 /* ProprietyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEAF235A31C0004CB2A8 /* ProprietyViewController.swift */; };
+		3F70EEB6235A35ED004CB2A8 /* Loja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEB5235A35ED004CB2A8 /* Loja.swift */; };
+		3F70EEBC235A423D004CB2A8 /* StoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEBB235A423D004CB2A8 /* StoreCollectionViewCell.swift */; };
+		3F70EEC4235A4975004CB2A8 /* LoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEC3235A4975004CB2A8 /* LoadViewController.swift */; };
+		3F70EEC6235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */; };
+		3F70EEE0235F631E004CB2A8 /* PlantaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */; };
+		3F70EEE2235F631E004CB2A8 /* Planta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEDF235F631D004CB2A8 /* Planta.swift */; };
+		3F70EEE4235F6392004CB2A8 /* Solo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEE3235F6392004CB2A8 /* Solo.swift */; };
+		3F70EEED235F6FFC004CB2A8 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEEC235F6FFC004CB2A8 /* ViewController1.swift */; };
 		3FCA9D7723579285004944EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA9D7623579285004944EF /* AppDelegate.swift */; };
 		3FCA9D7923579285004944EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA9D7823579285004944EF /* ViewController.swift */; };
 		3FCA9D7C23579285004944EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA9D7A23579285004944EF /* Main.storyboard */; };
@@ -22,6 +31,15 @@
 		3F70EEA6235A21FE004CB2A8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3F70EEA8235A2C49004CB2A8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3F70EEAC235A2DE4004CB2A8 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		3F70EEAF235A31C0004CB2A8 /* ProprietyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProprietyViewController.swift; sourceTree = "<group>"; };
+		3F70EEB5235A35ED004CB2A8 /* Loja.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loja.swift; sourceTree = "<group>"; };
+		3F70EEBB235A423D004CB2A8 /* StoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F70EEC3235A4975004CB2A8 /* LoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadViewController.swift; sourceTree = "<group>"; };
+		3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantaDAO.swift; sourceTree = "<group>"; };
+		3F70EEDF235F631D004CB2A8 /* Planta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planta.swift; sourceTree = "<group>"; };
+		3F70EEE3235F6392004CB2A8 /* Solo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Solo.swift; path = ../../../../Downloads/Solo.swift; sourceTree = "<group>"; };
+		3F70EEEC235F6FFC004CB2A8 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		3FCA9D7323579285004944EF /* teste2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teste2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA9D7623579285004944EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FCA9D7823579285004944EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,16 +83,35 @@
 			isa = PBXGroup;
 			children = (
 				3F70EEAC235A2DE4004CB2A8 /* StoreViewController.swift */,
+				3F70EEB5235A35ED004CB2A8 /* Loja.swift */,
 			);
 			path = Loja;
+			sourceTree = "<group>";
+		};
+		3F70EEAE235A31A8004CB2A8 /* Propriedades */ = {
+			isa = PBXGroup;
+			children = (
+				3F70EEAF235A31C0004CB2A8 /* ProprietyViewController.swift */,
+			);
+			path = Propriedades;
+			sourceTree = "<group>";
+		};
+		3F70EEE5235F6ABA004CB2A8 /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				3F70EEEC235F6FFC004CB2A8 /* ViewController1.swift */,
+			);
+			path = Cadastro;
 			sourceTree = "<group>";
 		};
 		3FCA9D6A23579285004944EF = {
 			isa = PBXGroup;
 			children = (
+				3F70EEA3235A1BC8004CB2A8 /* Menu */,
+				3F70EEE5235F6ABA004CB2A8 /* Cadastro */,
+				3F70EEAE235A31A8004CB2A8 /* Propriedades */,
 				3F70EEAB235A2D99004CB2A8 /* Loja */,
 				3F70EEAA235A2D80004CB2A8 /* Configurações */,
-				3F70EEA3235A1BC8004CB2A8 /* Menu */,
 				3FCA9D7523579285004944EF /* teste2 */,
 				3FCA9D7423579285004944EF /* Products */,
 			);
@@ -93,7 +130,13 @@
 			children = (
 				3FCA9D7623579285004944EF /* AppDelegate.swift */,
 				3FCA9D7823579285004944EF /* ViewController.swift */,
+				3F70EEE3235F6392004CB2A8 /* Solo.swift */,
+				3F70EEDF235F631D004CB2A8 /* Planta.swift */,
+				3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */,
+				3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */,
 				3FCA9D7A23579285004944EF /* Main.storyboard */,
+				3F70EEC3235A4975004CB2A8 /* LoadViewController.swift */,
+				3F70EEBB235A423D004CB2A8 /* StoreCollectionViewCell.swift */,
 				3FCA9D7D23579286004944EF /* Assets.xcassets */,
 				3FCA9D7F23579286004944EF /* LaunchScreen.storyboard */,
 				3FCA9D8223579286004944EF /* Info.plist */,
@@ -172,11 +215,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F70EEED235F6FFC004CB2A8 /* ViewController1.swift in Sources */,
+				3F70EEB0235A31C0004CB2A8 /* ProprietyViewController.swift in Sources */,
+				3F70EEBC235A423D004CB2A8 /* StoreCollectionViewCell.swift in Sources */,
+				3F70EEE2235F631E004CB2A8 /* Planta.swift in Sources */,
 				3F70EEA7235A21FE004CB2A8 /* BaseViewController.swift in Sources */,
+				3F70EEC4235A4975004CB2A8 /* LoadViewController.swift in Sources */,
 				3FCA9D7923579285004944EF /* ViewController.swift in Sources */,
+				3F70EEE4235F6392004CB2A8 /* Solo.swift in Sources */,
+				3F70EEB6235A35ED004CB2A8 /* Loja.swift in Sources */,
+				3F70EEE0235F631E004CB2A8 /* PlantaDAO.swift in Sources */,
 				3F70EEAD235A2DE4004CB2A8 /* StoreViewController.swift in Sources */,
 				3FCA9D7723579285004944EF /* AppDelegate.swift in Sources */,
 				3F70EEA9235A2C49004CB2A8 /* SettingsViewController.swift in Sources */,
+				3F70EEC6235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift in Sources */,
 				3FCA9D8B23579367004944EF /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
