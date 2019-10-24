@@ -1,4 +1,10 @@
-
+//
+//  ViewController.swift
+//  SmartLeafTelaCadastro
+//
+//  Created by Student on 16/10/19.
+//  Copyright © 2019 Student. All rights reserved.
+//
 
 import UIKit
 
@@ -19,17 +25,20 @@ class ViewController1: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
     
     
     var nomeDaPlanta: String!
-    var imagem : UIImage!
+    var imagem = ["alecrim","hortela"]
     var especiesEscolhidas: String!
-    let especie1Planta = [ "Planta 1", "Planta 2", "Planta 3", "Planta 4", "Planta 5", "Planta 6"]
-    let sensores2Planta = [ "Sensor 1", "Sensor 2", "Sensor 3", "Sensor 4", "Sensor 5", "Sensor 6"]
+    let especie1Planta = [ "Alecrim", "Hortela"]
+    let sensores2Planta = [ "Sensor Umidade 1", "Sensor Umidade 2"]
     var sensoresEscolhidos: String!
     
-   
+
     
+    
+  
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let thePickerEspecie = UIPickerView()
         self.especieCadastrada.inputView = thePickerEspecie
         let thePickerSensor = UIPickerView()
@@ -38,30 +47,20 @@ class ViewController1: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         thePickerEspecie.delegate = self
         thePickerSensor.delegate = self
         
+ 
      
         
-       
-        
-    }
-  
- 
-    
-    @IBAction func botaoCadastrar(_ sender: Any) {
-       
-        let mainStoreboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let DVC = mainStoreboard.instantiateViewController(withIdentifier: "LoadView") as! LoadViewController
-        self.navigationController?.pushViewController(DVC, animated:true)
-        
-        
-      
-        
-    
     }
     
     
 
     
+    @IBAction func botaoCadastrar(_ sender: Any) {
+       
+  
+        
     
+    }
     
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -99,7 +98,16 @@ class ViewController1: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         
         if especieCadastrada.isFirstResponder{
             let itemselected = especie1Planta[row]
+            
             especieCadastrada.text = itemselected
+            if especieCadastrada.text == "Alecrim"{
+                 imagemPlanta.image = UIImage(named: "alecrim")
+            }
+            
+            if especieCadastrada.text == "Hortela"{
+                imagemPlanta.image = UIImage(named: "hortela")
+            }
+            
         }else if sensorCadastrado.isFirstResponder{
             let itemselected = sensores2Planta[row]
            sensorCadastrado.text = itemselected
@@ -110,6 +118,25 @@ class ViewController1: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
 
 
 }
+  
+ /*   func Planta(){
+        
+        
+        var nomePlantaEscolhida: [String]
+        var imagemEscolhida: [UIImage]
+        var nomeEspecieEscolhida:[String]()
+        var nomeSensorEscolhido: [String]
+        
+        
+        
+        nomePlantaEscolhida.append(nomePlanta.text!)
+        testeEspeciePlanta.text = especieCadastrada.text
+        testSensorPlanta.text = sensorCadastrado.text
+        
+        
+    }*/
+    
+    
 
 
 }
