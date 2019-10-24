@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1C8A5B23621CE30013A991 /* Solo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1C8A5A23621CE20013A991 /* Solo.swift */; };
 		3F70EEA7235A21FE004CB2A8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEA6235A21FE004CB2A8 /* BaseViewController.swift */; };
 		3F70EEA9235A2C49004CB2A8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEA8235A2C49004CB2A8 /* SettingsViewController.swift */; };
 		3F70EEAD235A2DE4004CB2A8 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEAC235A2DE4004CB2A8 /* StoreViewController.swift */; };
@@ -17,7 +18,6 @@
 		3F70EEC6235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */; };
 		3F70EEE0235F631E004CB2A8 /* PlantaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */; };
 		3F70EEE2235F631E004CB2A8 /* Planta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEDF235F631D004CB2A8 /* Planta.swift */; };
-		3F70EEE4235F6392004CB2A8 /* Solo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEE3235F6392004CB2A8 /* Solo.swift */; };
 		3F70EEED235F6FFC004CB2A8 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F70EEEC235F6FFC004CB2A8 /* ViewController1.swift */; };
 		3FCA9D7723579285004944EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA9D7623579285004944EF /* AppDelegate.swift */; };
 		3FCA9D7923579285004944EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA9D7823579285004944EF /* ViewController.swift */; };
@@ -28,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F1C8A5A23621CE20013A991 /* Solo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Solo.swift; path = ../../../Solo.swift; sourceTree = "<group>"; };
 		3F70EEA6235A21FE004CB2A8 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3F70EEA8235A2C49004CB2A8 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3F70EEAC235A2DE4004CB2A8 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantaCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantaDAO.swift; sourceTree = "<group>"; };
 		3F70EEDF235F631D004CB2A8 /* Planta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planta.swift; sourceTree = "<group>"; };
-		3F70EEE3235F6392004CB2A8 /* Solo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Solo.swift; path = ../../../../Downloads/Solo.swift; sourceTree = "<group>"; };
 		3F70EEEC235F6FFC004CB2A8 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		3FCA9D7323579285004944EF /* teste2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teste2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FCA9D7623579285004944EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -129,8 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				3FCA9D7623579285004944EF /* AppDelegate.swift */,
+				3F1C8A5A23621CE20013A991 /* Solo.swift */,
 				3FCA9D7823579285004944EF /* ViewController.swift */,
-				3F70EEE3235F6392004CB2A8 /* Solo.swift */,
 				3F70EEDF235F631D004CB2A8 /* Planta.swift */,
 				3F70EEDD235F631D004CB2A8 /* PlantaDAO.swift */,
 				3F70EEC5235A4BAC004CB2A8 /* PlantaCollectionViewCell.swift */,
@@ -217,12 +217,12 @@
 			files = (
 				3F70EEED235F6FFC004CB2A8 /* ViewController1.swift in Sources */,
 				3F70EEB0235A31C0004CB2A8 /* ProprietyViewController.swift in Sources */,
+				3F1C8A5B23621CE30013A991 /* Solo.swift in Sources */,
 				3F70EEBC235A423D004CB2A8 /* StoreCollectionViewCell.swift in Sources */,
 				3F70EEE2235F631E004CB2A8 /* Planta.swift in Sources */,
 				3F70EEA7235A21FE004CB2A8 /* BaseViewController.swift in Sources */,
 				3F70EEC4235A4975004CB2A8 /* LoadViewController.swift in Sources */,
 				3FCA9D7923579285004944EF /* ViewController.swift in Sources */,
-				3F70EEE4235F6392004CB2A8 /* Solo.swift in Sources */,
 				3F70EEB6235A35ED004CB2A8 /* Loja.swift in Sources */,
 				3F70EEE0235F631E004CB2A8 /* PlantaDAO.swift in Sources */,
 				3F70EEAD235A2DE4004CB2A8 /* StoreViewController.swift in Sources */,
@@ -307,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -363,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -378,12 +378,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X457TKHK;
 				INFOPLIST_FILE = teste2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.autolayoutufrj.teste2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolayoutufrj.teste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -395,12 +396,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65X457TKHK;
 				INFOPLIST_FILE = teste2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.autolayoutufrj.teste2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.autolayoutufrj.teste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

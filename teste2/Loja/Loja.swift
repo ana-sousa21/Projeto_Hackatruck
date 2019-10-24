@@ -30,10 +30,10 @@ class LojaDAO{
         
         return [
             
-            Loja(nome: "Vaso 32x32cm", preco: "R$ 18,99", nomeDaFoto: "jardineira"),
-            Loja(nome: "Sensor DHT11", preco: "R$ 12,99", nomeDaFoto: "sensor_umidade"),
+            Loja(nome: "Sementes", preco: "R$ 18,99", nomeDaFoto: "p_607"),
+            Loja(nome: "Sensor DHT11", preco: "R$ 12,99", nomeDaFoto: "Image-1"),
             Loja(nome: "Fita de pH", preco: "R$ 09,99", nomeDaFoto: "fita_ph"),
-            Loja(nome: "Rele 110V", preco: "R$ 44,00", nomeDaFoto: "sementes")
+            Loja(nome: "Rele 110V", preco: "R$ 44,00", nomeDaFoto: "rele")
             
         ]
         
